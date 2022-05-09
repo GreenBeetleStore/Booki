@@ -1,0 +1,37 @@
+GOOGLE FONT
+
+Raleway
+Light 300
+Light 300 italic
+Regular 400
+Regular 400 italic
+Medium 500
+Medium 500 italic
+Semi-bold 600
+Semi-bold 600 italic
+
+==========================================================
+
+<link>
+------
+To embed a font, copy the code into the <head> of your HTML
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+CSS rules to specify families
+
+font-family: 'Raleway', sans-serif;
+
+
+@import
+-------
+To embed a font, copy the code into the <head> of your HTML
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+</style>
+
+CSS rules to specify families
+
+font-family: 'Raleway', sans-serif;
